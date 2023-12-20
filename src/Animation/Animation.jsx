@@ -17,8 +17,8 @@ const Animation = () => {
                 </div>
                 <div className={styles.right}>
                     <form className={styles.form_container}>
-                        <h1>Select your model shape in one click</h1>
-                        <p>In this article we will build a quick and simple sprite animation in JavaScript without using any external libraries.</p>
+                        <h1>Play with the cartoon by clicking the button</h1>
+                        <p>This is simple React application we will build a quick and simple sprite animation in react without using any external libraries.</p>
                         <button type="button" onClick={toggleAnimation} className={styles.green_btn}>
                             {isAnimating ? "Stop Animation" : "Start Animation"}
                         </button>
